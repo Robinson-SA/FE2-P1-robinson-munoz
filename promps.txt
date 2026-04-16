@@ -1,3 +1,18 @@
 --Etapa 1 
     crea una pagina con una estructura html con css(En styles.css) que promociones productos tecnologicos(nombre del producto, descripcion),una secsion de productos desatacados
-    -- util genero un sitio web moderno con carateristicas basicas 
+    ---
+    -- util genero un sitio web moderno con carateristicas basicas
+
+-- Etapa 2
+    Modifica los colores, los nuevos colores deben ser accesibles(AA) ocupa un paleta de colores blanco, verde menta, el diseño debe ser moderno minimalizta y agradable
+    ---util cumple con lo pedido 
+
+    en la "section featured-products", quiero que este columnas de dos  y agrega unos productos mas, en general de la pagina debe ser moderna y minimalista, accesesible para todos los dispositivos,responsiv
+    ---util cambio corectamente la forma de grid
+
+
+- Etapa 3
+    agrega productos de la marca samsung en especificos sus telefonos de gama alta y gama media tambien los productos de reyzer de sus computadoras, todos los productos  deben de contener caracteristicas principales, ventajas, o posible uso especificaciones tecnicas, benefio del producto y su precio, asinaga en diferentes secsiones y evita superposicion y saturamiento tiene que ser minimalista y moderno el diseño
+
+    -- util se agregaron nuevos productos con descripcion clara y visble y se adapta a movil
+    
