@@ -1,0 +1,133 @@
+/* Estilos generales */
+:root {
+    color-scheme: dark;
+    color: #111;
+    background: #f6f7fb;
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: 1.75;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: min(1100px, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: 3rem 0 4rem;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+    color: #ffffff;
+    padding: 4rem 1.5rem;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.eyebrow {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #93c5fd;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.85rem;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: clamp(2.5rem, 4vw, 4rem);
+    line-height: 1.05;
+}
+
+.hero p {
+    margin: 1.5rem auto 0;
+    max-width: 620px;
+    color: #dbeafe;
+    font-size: 1.05rem;
+}
+
+.section-header {
+    margin-bottom: 2rem;
+}
+
+.section-header h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #0f172a;
+}
+
+.section-header p {
+    margin: 0.75rem 0 0;
+    color: #475569;
+}
+
+.product-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.product-grid.large {
+    gap: 1.5rem;
+}
+
+.product-card {
+    background: #ffffff;
+    padding: 1.75rem;
+    border-radius: 1.25rem;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 32px 80px rgba(15, 23, 42, 0.12);
+}
+
+.product-card h3 {
+    margin: 0 0 0.85rem;
+    font-size: 1.25rem;
+    color: #0f172a;
+}
+
+.product-card p {
+    margin: 0;
+    color: #475569;
+}
+
+.footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: #ffffff;
+    color: #64748b;
+    border-top: 1px solid #e2e8f0;
+}
+
+@media (max-width: 640px) {
+    .hero {
+        padding: 3rem 1rem;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        padding-top: 2rem;
+    }
+}

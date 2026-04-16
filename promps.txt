@@ -1,0 +1,3 @@
+--Etapa 1 
+    crea una pagina con una estructura html con css(En styles.css) que promociones productos tecnologicos(nombre del producto, descripcion),una secsion de productos desatacados
+    -- util genero un sitio web moderno con carateristicas basicas 
