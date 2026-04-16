@@ -15,4 +15,6 @@
     agrega productos de la marca samsung en especificos sus telefonos de gama alta y gama media tambien los productos de reyzer de sus computadoras, todos los productos  deben de contener caracteristicas principales, ventajas, o posible uso especificaciones tecnicas, benefio del producto y su precio, asinaga en diferentes secsiones y evita superposicion y saturamiento tiene que ser minimalista y moderno el diseño
 
     -- util se agregaron nuevos productos con descripcion clara y visble y se adapta a movil
-    
+-- Etapa 4
+    agrega un apartado  donde
+    se comparan los productos en base a su calida y precio, el diseño de a pagina deveser accesible para movil
